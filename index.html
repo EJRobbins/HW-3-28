@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-wrapper">
+        <div class="question" id="questionBox">
+            Which one of these is NOT a Javascript data type?
+        </div>
+        <div class="options">
+            <ul>
+                <li id="opt1" onclick="button(this)" ></li>
+                <li id="opt2" onclick="button(this)"></li>
+                <li id="opt3" onclick="button(this)"></li>
+                <li id="opt4" onclick="button(this)"></li>
+            </ul>
+        </div>
+        <div class="score">
+            <div class="next">
+                <button type="button">Next</button>
+            </div>
+            <div class="score-card">
+                Score: <span id="scoreCard"></span>
+            </div>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
